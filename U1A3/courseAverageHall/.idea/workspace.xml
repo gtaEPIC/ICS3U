@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fad7d34-2437-4b1e-890f-9308dce95661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseAverageHall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/frmCourseAverageHall$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/courseAverageHall/frmCourseAverageHall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frmCourseAverageHall.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frmCourseAverageHall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/.idea/dictionaries/johnny.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/shoppingHall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/src/frmShoppingHall.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/src/frmShoppingHall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingHall/src/ram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582254344640</updated>
       <workItem from="1582254346020" duration="4108000" />
+      <workItem from="1582300669233" duration="615000" />
     </task>
     <servers />
   </component>
