@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="guessingGameHall">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="867" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4521a" class="javax.swing.JLabel" binding="lblTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tw Cen MT Condensed Extra Bold" size="20" style="1"/>
+          <text value="Dice Guessing Game"/>
+        </properties>
+      </component>
+      <component id="58888" class="javax.swing.JLabel" binding="lblGuess">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Your Guess:"/>
+        </properties>
+      </component>
+      <component id="5d810" class="javax.swing.JLabel" binding="lblRoll">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dice Roll:"/>
+        </properties>
+      </component>
+      <hspacer id="a7286">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="7c5e8" class="javax.swing.JTextField" binding="txtGuess">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1e12c" class="javax.swing.JButton" binding="btnRoll">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Roll"/>
+        </properties>
+      </component>
+      <component id="82639" class="javax.swing.JLabel" binding="lblRolled">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="(Place Holder)"/>
+        </properties>
+      </component>
+      <component id="bc0cf" class="javax.swing.JLabel" binding="lblInfoRoll">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Number of rolls"/>
+        </properties>
+      </component>
+      <component id="64bf8" class="javax.swing.JLabel" binding="lblRolls">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="(Place Holder)"/>
+        </properties>
+      </component>
+      <component id="edafe" class="javax.swing.JLabel" binding="lblInfoCorrectGuess">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Correct Guesses"/>
+        </properties>
+      </component>
+      <component id="212b5" class="javax.swing.JLabel" binding="lblInfoWrongGuess">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Incorrect Guesses:"/>
+        </properties>
+      </component>
+      <component id="e6c2e" class="javax.swing.JLabel" binding="lblInfoPercent">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Percentage of Correct Guesses"/>
+        </properties>
+      </component>
+      <component id="93f01" class="javax.swing.JLabel" binding="lblCorrectGuess">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="(Place Holder)"/>
+        </properties>
+      </component>
+      <component id="f2393" class="javax.swing.JLabel" binding="lblWrongGuess">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="(Place Holder)"/>
+        </properties>
+      </component>
+      <component id="5316a" class="javax.swing.JLabel" binding="lblPercent">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="(Place Holder)"/>
+        </properties>
+      </component>
+      <component id="69bc4" class="javax.swing.JLabel" binding="lblInfo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="How to play: type your guessed number in the text box below. "/>
+        </properties>
+      </component>
+      <component id="9abc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Hit the Roll button to roll the dice. If your guessed number is correct, your correct Guesses will go up."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
