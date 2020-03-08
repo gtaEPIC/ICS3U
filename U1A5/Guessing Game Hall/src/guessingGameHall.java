@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class guessingGameHall {
+public class guessingGameHall extends JFrame {
     private JTextField txtGuess;
     private JButton btnRoll;
     private JLabel lblTitle;
@@ -16,4 +16,20 @@ public class guessingGameHall {
     private JLabel lblWrongGuess;
     private JLabel lblPercent;
     private JLabel lblInfo;
+    private JLabel lblInfo2;
+    private JPanel pnlMain;
+
+    public guessingGameHall(String title) {
+        super(title);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setContentPane(pnlMain);
+        this.pack();
+
+
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new guessingGameHall("Dice Game");
+        frame.setVisible(true);
+    }
 }
