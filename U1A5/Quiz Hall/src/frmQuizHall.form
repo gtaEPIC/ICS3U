@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frmQuizHall">
+  <grid id="27dc6" binding="pnlMain" layout-manager="GridLayoutManager" row-count="15" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="5949f" class="javax.swing.JLabel" binding="lblTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mini Multiple Choice Quiz!"/>
+        </properties>
+      </component>
+      <component id="974a7" class="javax.swing.JLabel" binding="lblHelp1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="How to answer:"/>
+        </properties>
+      </component>
+      <component id="917e" class="javax.swing.JLabel" binding="lblHelp2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Below this will show a question and 3 answers"/>
+        </properties>
+      </component>
+      <component id="931bc" class="javax.swing.JLabel" binding="lblHelp3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Using the textbox below the answers,"/>
+        </properties>
+      </component>
+      <component id="9c2e3" class="javax.swing.JLabel" binding="lblHelp4">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Type the letter of the answer you think is correct and hit submit"/>
+        </properties>
+      </component>
+      <component id="eaa3f" class="javax.swing.JLabel" binding="lblTitleQuestions">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Question:"/>
+        </properties>
+      </component>
+      <component id="5ec49" class="javax.swing.JLabel" binding="lblTitleAnswers">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Answers:"/>
+        </properties>
+      </component>
+      <component id="efdc1" class="javax.swing.JLabel" binding="lblAnswer1">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A1"/>
+        </properties>
+      </component>
+      <component id="af208" class="javax.swing.JLabel" binding="lblAnswer2">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A2"/>
+        </properties>
+      </component>
+      <component id="9ef1d" class="javax.swing.JLabel" binding="lblAnswer3">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A3"/>
+        </properties>
+      </component>
+      <component id="a1a1" class="javax.swing.JLabel" binding="lblQuestion">
+        <constraints>
+          <grid row="6" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Q"/>
+        </properties>
+      </component>
+      <component id="7ea97" class="javax.swing.JLabel" binding="lblHelp5">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Which answer is correct:"/>
+        </properties>
+      </component>
+      <component id="91356" class="javax.swing.JTextField" binding="txtAnswer">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4e6c0" class="javax.swing.JButton" binding="btnSubmit">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="80637" class="javax.swing.JLabel" binding="lblStats">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quiz Stats"/>
+        </properties>
+      </component>
+      <component id="cf7ae" class="javax.swing.JLabel" binding="lblCorrectInfo">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Correct Answers:"/>
+        </properties>
+      </component>
+      <component id="e7b07" class="javax.swing.JLabel" binding="lblWrongInfo">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Wrong Answers:"/>
+        </properties>
+      </component>
+      <component id="f36a8" class="javax.swing.JLabel" binding="lblMarkInfo">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mark:"/>
+        </properties>
+      </component>
+      <component id="ce38f" class="javax.swing.JLabel" binding="lblCorrect">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="f3b7b" class="javax.swing.JLabel" binding="lblWrong">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9c738" class="javax.swing.JLabel" binding="lblMark">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0%"/>
+        </properties>
+      </component>
+      <component id="ad4ae" class="javax.swing.JLabel" binding="lblInfo">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit for the correct answer"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
