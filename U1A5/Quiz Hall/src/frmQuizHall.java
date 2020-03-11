@@ -53,6 +53,8 @@ public class frmQuizHall extends JFrame{
 
     }
 
+
+    //Function used to find the answer to a specific question that was given.
     public String findAnswer(int Question) {
         switch (Question) {
             case 1:
@@ -70,6 +72,7 @@ public class frmQuizHall extends JFrame{
         }
     }
 
+    //Function that will find the letter corresponding to the correct answer
     public String findLetter(int Question) {
         switch (Question) {
             case 1:
@@ -130,26 +133,31 @@ public class frmQuizHall extends JFrame{
         btnSubmit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+                //Find the answer user submitted and grab the correct answer
                 String input = txtAnswer.getText();
                 String answer = findLetter(currentQuestion);
 
-                if (input.toLowerCase() == answer.toLowerCase()) {
+                //Check to see if the answer is correct. If so add 1 to correct, if not 1 to wrong
+                if (input.toLowerCase().equals(answer.toLowerCase())) {
                     correct += 1;
                 }else{
                     wrong += 1;
                 }
 
-                lblInfo.setText("The correct answer was: " + findLetter(currentQuestion) + findAnswer(currentQuestion));
+                //Display what that answer was.
+                lblInfo.setText("The correct answer was: " + findLetter(currentQuestion) + ")  " + findAnswer(currentQuestion));
 
                 //Update Stats:
                 lblCorrect.setText(String.valueOf(correct));
                 lblWrong.setText(String.valueOf(wrong));
 
-                double percent = (double) correct / currentQuestion * 100;
+                double percent = (double) correct / currentQuestion * 100; //Calculate current mark
 
-                lblMark.setText(String.valueOf((int) percent));
+                lblMark.setText(String.valueOf((int) percent) + "%"); //Show that mark | (int) required to make sure its not a decimal
 
-                currentQuestion += 1;
+                currentQuestion += 1; //Change to the next question
+
+                //Display what the next question is
                 switch (currentQuestion) {
                     case 2:
                         nextQuestion(Q2);
@@ -164,7 +172,10 @@ public class frmQuizHall extends JFrame{
                         nextQuestion(Q5);
                         break;
                     default:
+                        //If there are no more questions, say no more and disable the submit button.
                         String[] temp = {"Finished! You have reached the end of the questions", "", "", ""};
+                        nextQuestion(temp);
+                        btnSubmit.setEnabled(false);
                         break;
                 }
             }
@@ -172,6 +183,7 @@ public class frmQuizHall extends JFrame{
     }
 
     public static void main(String[] args) {
+        //Setup window and display it
         JFrame frame = new frmQuizHall("Mini Quiz");
         frame.setVisible(true);
     }
