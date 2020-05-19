@@ -41,7 +41,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a1e638d-5fed-4c38-854b-135698a2d27f" name="Default Changelist" comment="" />
+    <list default="true" id="1a1e638d-5fed-4c38-854b-135698a2d27f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,9 +78,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="HiLoGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -110,6 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589384864751</updated>
       <workItem from="1589384867469" duration="7035000" />
+      <workItem from="1589852324167" duration="1840000" />
     </task>
     <servers />
   </component>
@@ -126,6 +130,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="250" y="405" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589391323811">
@@ -168,9 +173,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589391936266" />
-    <state x="0" y="189" key="SettingsEditor" timestamp="1589391375512">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="67" y="218" width="1024" height="845" key="SettingsEditor" timestamp="1589852482084">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="0" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589391375512" />
+    <state x="67" y="218" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1589852482084" />
   </component>
 </project>
